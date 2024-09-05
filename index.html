@@ -8,26 +8,28 @@
 </head>
 
 <body>
-    <header class="border border-green-300">
+    <header class="bg-white">
         <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
-            <div class="flex h-16 items-center justify-between">
+            <div class="flex h-20 items-center justify-between">
                 <div class="flex-1 md:flex md:items-center md:gap-12">
                     <a class="block text-teal-600" href="#">
                         <span class="sr-only">Home</span>
-                        <img class="h-8" src="/img/hospital_574693.png" alt="Home" />
+                        <img class="h-12" src="/img/hospital_574693.png" alt="Home" />
                     </a>
 
                 </div>
 
                 <div class="md:flex md:items-center md:gap-12">
                     <nav aria-label="Global" class="hidden md:block">
-                        <ul class="flex items-center gap-12 text-sm">
+                        <ul class="flex items-center gap-12 text-l font-bold">
                             <li>
-                                <a class="text-black transition hover:text-green-500/75" href="/errorPage.html"> Doctor </a>
+                                <a class="text-black transition hover:text-green-500/75" href="/doctor.html"> Doctor
+                                </a>
                             </li>
 
                             <li>
-                                <a class="text-black transition hover:text-green-500/75" href="/errorPage.html"> Room </a>
+                                <a class="text-black transition hover:text-green-500/75" href="/errorPage.html"> Room
+                                </a>
                             </li>
 
                             <li>
@@ -39,7 +41,43 @@
             </div>
         </div>
     </header>
+    <section
+        class="relative bg-[url(https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=2053&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] bg-cover bg-center bg-no-repeat">
+        <div
+            class="absolute inset-0 bg-gray-900/75 sm:bg-transparent sm:from-gray-900/95 sm:to-gray-900/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l">
+        </div>
+        <div class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
+            <div class="absolute inset-0 bg-black opacity-50"></div>
 
+            <div class="relative max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
+                <h1 class="text-3xl font-extrabold text-white sm:text-5xl">
+                    Hidup Sehat Bersama
+
+                    <strong class="block font-extrabold text-green-500"> Hospital Luxury. </strong>
+                </h1>
+
+                <p class="mt-4 max-w-lg text-white sm:text-xl">
+                    Luxury adalah sebuah rumah sakit yang terletak di kawasan Bogor, menawarkan pelayanan kesehatan
+                    dengan
+                    standar tinggi
+                    dan fasilitas modern.
+                </p>
+
+                <div class="mt-8 flex flex-wrap gap-4 text-center">
+                    <a href="#"
+                        class="block w-full rounded bg-green-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-green-700 active:bg-gree-500 sm:w-auto">
+                        Get Started
+                    </a>
+
+                    <a href="#"
+                        class="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-green-600 shadow hover:text-green-700 active:text-gree-500 sm:w-auto">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
 
     <section>
         <div class="max-w-screen-xxl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
@@ -55,14 +93,14 @@
                         terbaik Anda
                     </p>
 
-                    <a href="/errorPage.html"
-                        class="mt-8 inline-block rounded bg-green-500 px-12 py-3 text-sm font-medium text-white transition hover:bg-green-700 focus:outline-none focus:ring focus:ring-yellow-400">
+                    <a href="/doctor.html"
+                        class="mt-8 inline-block rounded bg-green-500 px-12 py-3 text-sm font-medium text-white transition hover:bg-green-700  focus:ring-yellow-400">
                         Find Doctor
                     </a>
                 </div>
 
                 <div class="grid grid-cols-2 gap-4 sm:grid-cols-3">
-                    <a class="block rounded-xl border border-green-200 p-4 shadow-sm hover:border-green-300 hover:ring-1 hover:ring-green-400 focus:outline-none focus:ring"
+                    <a class="block rounded-xl border border-green-200 p-4 shadow-sm hover:border-green-300 hover:ring-1 hover:ring-green-400 "
                         href="/errorPage.html">
                         <span class="inline-block rounded-lg bg-green-100 p-3">
                             <img src="/img/analytics_537961.png" alt="Icon" width="24" height="24" />
@@ -76,71 +114,71 @@
                         </p>
                     </a>
 
-                    <a class="block rounded-xl border border-green-200 p-4 shadow-sm hover:border-green-300 hover:ring-1 hover:ring-green-400 focus:outline-none focus:ring"
+                    <a class="block rounded-xl border border-green-200 p-4 shadow-sm hover:border-green-300 hover:ring-1 hover:ring-green-400 "
                         href="/errorPage.html">
                         <span class="inline-block rounded-lg bg-green-100 p-3">
                             <img src="/img/bed_2436402.png" alt="Icon" width="24" height="24" />
                         </span>
-                    
-                    
+
+
                         <h2 class="mt-2 font-bold">Ruang bersalin</h2>
-                    
+
                         <p class="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
                             Tempat Pasien Melahirkan.
                         </p>
                     </a>
 
-                    <a class="block rounded-xl border border-green-200 p-4 shadow-sm hover:border-green-300 hover:ring-1 hover:ring-green-400 focus:outline-none focus:ring"
+                    <a class="block rounded-xl border border-green-200 p-4 shadow-sm hover:border-green-300 hover:ring-1 hover:ring-green-400 "
                         href="/errorPage.html">
                         <span class="inline-block rounded-lg bg-green-100 p-3">
                             <img src="/img/chemotherapy_9874868.png" alt="Icon" width="24" height="24" />
                         </span>
-                    
-                    
+
+
                         <h2 class="mt-2 font-bold">ICU</h2>
-                    
+
                         <p class="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
                             Tempat Pasien Kritis.
                         </p>
                     </a>
 
-                    <a class="block rounded-xl border border-green-200 p-4 shadow-sm hover:border-green-300 hover:ring-1 hover:ring-green-400 focus:outline-none focus:ring"
+                    <a class="block rounded-xl border border-green-200 p-4 shadow-sm hover:border-green-300 hover:ring-1 hover:ring-green-400 "
                         href="/errorPage.html">
                         <span class="inline-block rounded-lg bg-green-100 p-3">
                             <img src="/img/add_10948947.png" alt="Icon" width="24" height="24" />
                         </span>
-                    
-                    
+
+
                         <h2 class="mt-2 font-bold">IGD</h2>
-                    
+
                         <p class="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
                             Instalasi Gawat Darurat.
                         </p>
                     </a>
 
-                    <a class="block rounded-xl border border-green-200 p-4 shadow-sm hover:border-green-300 hover:ring-1 hover:ring-green-400 focus:outline-none focus:ring"
+                    <a class="block rounded-xl border border-green-200 p-4 shadow-sm hover:border-green-300 hover:ring-1 hover:ring-green-400 "
                         href="/errorPage.html">
                         <span class="inline-block rounded-lg bg-green-100 p-3">
                             <img src="/img/person_4484914.png" alt="Icon" width="24" height="24" />
                         </span>
-                    
-                    
+
+
                         <h2 class="mt-2 font-bold">Ruang Mayat </h2>
-                    
+
                         <p class="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
                             Tempat Pasien Yang Meninggal Dunia.
                         </p>
                     </a>
 
-                    <a class="block rounded-xl border border-green-200 p-4 shadow-sm hover:border-green-300 hover:ring-1 hover:ring-green-400 focus:outline-none focus:ring"
+                    <a class="block rounded-xl border border-green-200 p-4 shadow-sm hover:border-green-300 hover:ring-1 hover:ring-green-400 "
                         href="/errorPage.html">
                         <span class="inline-block rounded-lg bg-green-100 p-3">
                             <img src="/img/surgery-room_1364936.png" alt="Icon" width="24" height="24" />
                         </span>
-                    
-                    
+
+
                         <h2 class="mt-2 font-bold">Ruang operasi</h2>
-                    
+
                         <p class="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
                             Tempat Operasi.
                         </p>
